@@ -1,5 +1,5 @@
 {% set name = "regal" %}
-{% set version = "0.35.1" %}
+{% set version = "0.36.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/StyraInc/regal/archive/v{{ version }}.tar.gz
-  sha256: 49bfa9e94f66fffebe963c886686cdf7a202f7d4fbe6ed59b02d13e0bd0e3fc3
+  sha256: 34bc0edcb3d23da88ed644a351112450b0016e110e6ef0349abfee103a2fda07
 
 build:
   number: 0
