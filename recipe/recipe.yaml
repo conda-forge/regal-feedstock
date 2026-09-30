@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.42.0"
+  version: "0.43.0"
 
 package:
   name: regal
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/StyraInc/regal/archive/v${{ version }}.tar.gz
-  sha256: 804a38ed49279dc1e3b36c75d8e63ec0ee1659e3bd04feecd295eb142773f3dc
+  sha256: 0b1d03ef26a0d4282facaba811362d2784c7bc0aed0a5b4df270b413cc0dc6be
 
 build:
   number: 0
